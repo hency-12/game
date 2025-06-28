@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model=pickle.load(open('F:/MachineLearning/game/game_model.sav','rb'))
+loaded_model=pickle.load(open('game_model.sav','rb'))
 
 def game_prediction(input_data):
     
